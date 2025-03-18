@@ -287,6 +287,22 @@ html {
     justify-content:space-between;
     align-items:center;
     }
+
+
+    div{
+      > .imprint{
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        row-gap: unset;
+      }
+      & .imprint:hover{
+        color: #9F0908;
+        text-decoration: underline;
+      }
+    }
+
   
   /* Media */
   
@@ -398,7 +414,7 @@ html {
     }
   }
   
-  @media (max-width: 600px) {
+  @media (max-width: 630px) {
   
     .sakura_logo {
         width: 40px;
@@ -433,7 +449,7 @@ html {
     }
   }
   
-  @media(max-width:550px) {
+  @media(max-width:600px) {
   
     h2 {
         font-size: 44px;
